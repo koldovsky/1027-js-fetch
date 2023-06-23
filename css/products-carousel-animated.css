@@ -15,6 +15,18 @@
     box-sizing: border-box;
 }
 
+@media (min-width: 768px) {
+    .animated-carousel .product-card {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .animated-carousel .product-card {
+        flex: 0 0 33.33%;
+    }
+}
+
 .animated-carousel .carousel__button {
     position: absolute;
     top: 50%;
